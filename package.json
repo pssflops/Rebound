@@ -2,6 +2,7 @@
   "name": "reactTest",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://pssflops.github.io/Rebound",  
   "dependencies": {
     "react": "^15.5.4",
     "react-dom": "^15.5.4"
