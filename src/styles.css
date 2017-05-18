@@ -1,0 +1,169 @@
+/****** MAJOR STYLES *******/
+html,body {
+	font-family: Arial,Consolas, sans-serif;
+	font-size: 10pt;
+	margin: 0px;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	background: linear-gradient(21deg, #00ea28, #4900ff, #eeffcc, #0073ea);
+	background-size: 800% 800%;
+	-webkit-animation: hardass 48s ease infinite;
+	-moz-animation: hardass 48s ease infinite;
+	animation: hardass 48s ease infinite;
+  color: #212121;
+}
+
+html,body,*, *:after, *:before {
+    -webkit-font-smoothing: subpixel-antialiased;
+    -moz-font-smoothing: subpixel-antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -o-font-smoothing: antialiased;
+    font-smoothing: subpixel-antialiased;
+}
+
+nav{
+	vertical-align: top;
+	position: fixed;
+	margin-left: 30%;
+}
+.profile{
+	margin-left: 10%;
+	padding: 10px;
+}
+#app {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  padding-top: 10px;
+}
+
+#app div {
+  width: 100%;
+}
+
+#app div div {
+  height: 100%;
+}
+
+#app div div div {
+  position: relative;
+  height: auto;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 2px;
+}
+
+label {
+  display: block;
+  margin: 20px;
+  font-size: 12pt;
+  font-weight: bold;
+}
+
+nav a {
+	font-family: arial, sans-serif;
+  margin:12px;
+	padding: 6px;
+  text-transform: uppercase;
+  font-size: 12pt;
+	color: #0073EA;
+	background-color: rgba(255,255,255,0.75);
+	border-radius:  4px;
+}
+
+.arse {
+	margin-left: 15px;
+	padding: 5px;
+	font-family: 'arial black', verdana, sans-serif;
+	font-size: 14pt;
+}
+.butts {
+	text-align:center;
+	vertical-align: middle;
+  clear:both;
+  float: left;
+  background: rgba(50,215,150,0.5);
+  padding: 5px;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+.butts blockquote{
+  font-family: Georgia, "Lucida Bright", cursive;
+  background: rgba(0,0,0,0.5);
+  color: #ffffff;
+  size: 16pt;
+  padding: 25px;
+}
+.butts img{
+	max-height: 250px;
+	float: none;
+	border-radius: 50%;
+}
+
+.farts {
+  clear:none;
+  font-family:  Consolas, monospace;
+  background:  rgba(255,255,255,0.25);
+  color: #000000;
+  float:right;
+	margin: 6px;
+  padding: 2px;
+  border-radius: 2px;
+}
+
+footer{
+	position: fixed;
+	bottom: 0px;
+	margin-left: 25%;
+	text-align: center;
+	vertical-align: bottom;
+	margin-bottom: 10px;
+}
+
+
+.App-logo {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	opacity: 0.5;
+	float:right;
+	clear:none;
+  max-height: 150px;
+	-webkit-animation: spin 6s  linear infinite;
+	-moz-animation: spin 6s  linear infinite;
+	-ms-animation: spin 6s  linear infinite;
+	-o-animation: spin 6s linear infinite;
+	animation: spin 6s linear infinite;
+}
+/*** KEYFRAMES FOR ANIMATION ***/
+
+@-moz-keyframes spin {
+  100% { -moz-transform: rotate(360deg); }
+}
+
+@-webkit-keyframes spin {
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); }
+}
+
+@-webkit-keyframes hardass {
+    0%{background-position:97% 0%}
+    50%{background-position:4% 100%}
+    100%{background-position:97% 0%}
+}
+@-moz-keyframes hardass {
+    0%{background-position:97% 0%}
+    50%{background-position:4% 100%}
+    100%{background-position:97% 0%}
+}
+@keyframes hardass {
+    0%{background-position:97% 0%}
+    50%{background-position:4% 100%}
+    100%{background-position:97% 0%}
+}
